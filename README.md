@@ -1,47 +1,49 @@
-# Astro Starter Kit: Minimal
+# Highland Group RDA Website 🐴
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Welcome to the official website project for the **Highland Group Riding for the Disabled Association (RDA)**! This site is lovingly crafted with [Astro](https://astro.build) to help share our mission and connect with our community.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Our goal is to showcase the wonderful work we do enriching lives through horses in the Highlands.
 
 ## 🚀 Project Structure
 
-Inside of your Astro project, you'll see the following folders and files:
+Here's a map of our digital stables:
 
 ```text
 /
-├── public/
+├── public/               # Static assets (images, fonts, etc.)
+│   ├── assets/
+│   │   └── img/          # Site images
+│   └── favicon.ico       # Site favicon
 ├── src/
 │   └── pages/
-│       └── index.astro
-└── package.json
+│       └── index.astro   # Main homepage
+├── astro.config.mjs      # Astro configuration
+├── package.json          # Project dependencies and scripts
+├── tsconfig.json         # TypeScript configuration
+└── README.md             # This file
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Our Astro site looks for `.astro` or `.md` files in the `src/pages/` directory. Each page becomes a route based on its file name – simple as that!
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+All our lovely images and other static bits and bobs live in the `public/` directory. Specifically, you'll find the site's images nestled in `public/assets/img/`.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## 🧞 Getting Started & Commands
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
+Ready to saddle up and work on the site? All commands are run from the root of the project in your terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Installs all the necessary bits and pieces       |
+| `npm run dev`             | Starts a local development server (usually at `localhost:4321`) |
+| `npm run build`           | Prepares the site for its grand debut on the web! (builds to `./dist/`) |
+| `npm run preview`         | Lets you take a peek at the built site locally before it goes live |
+| `npm run astro ...`       | Handy for various Astro CLI tasks like `astro add` or `astro check` |
+| `npm run astro -- --help` | Your go-to for help with the Astro CLI           |
 
-## 👀 Want to learn more?
+## 👀 Curious about Astro?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+If you want to learn more about the magic behind the scenes (that's Astro!), feel free to check out [their fantastic documentation](https://docs.astro.build) or say hello in their friendly [Discord server](https://astro.build/chat).
+
+--- 
+
+Thank you for contributing to the Highland Group RDA's online presence! 🎉
